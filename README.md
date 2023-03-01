@@ -70,3 +70,7 @@ Make sure to update `~/ferrychecker` to the path appropiate for your computer/se
 
 
 Done
+
+# Running it in an AWS Lambda
+
+Would probably be pretty easy to achieve, just needs a rollup config for creating a single handler file and probably the cosmic config stuff should be changed to regular imports so the config files end up being bundled too
