@@ -63,10 +63,21 @@ crontab -e
 For example to run every 5 minutes:
 
 ```
-*/5 * * * * node ~/ferrychecker/checkferries-node.mjs
+*/5 * * * * node ~/ferrychecker/index.mjs
 ```
 
-Make sure to update `~/ferrychecker` to the path appropiate for your computer/server
+Make sure to update `~/ferrychecker` to the path appropiate for your computer/server. 
+These instructions should work on macos out of the box assuming you have node installed.
+If running on a macbook install something like: https://apps.apple.com/us/app/amphetamine/id937984704?mt=12
+to prevent the macbook from going to sleep.
+
+Once you've secured the ferry you want don't forget to remove the cron job:
+
+```sh
+crontab -e
+```
+Then remove the ferry checker line, or comment it out with `#`
+
 
 
 Done
