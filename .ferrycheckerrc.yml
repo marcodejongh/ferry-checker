@@ -1,0 +1,16 @@
+---
+desiredDates:
+- date: '2023-06-01T00:00:00'
+  day: true
+  night: true
+- date: '2023-06-02T00:00:00'
+  day: true
+  night: true
+# Install simple push on your phone and fill int he provided key here:
+simplePushKey: 'dummy'
+# Note to future me or other users. IF the rest api starts 500ing it's most likely because
+# the jsbreakingchangeversion is no longer supported. It appears that a jsbreakingchangeversion header
+# is how the spirit of tasmania backend handles rest api versioning (gross I know ;)). To fix this
+# look at the headers of the /prices request in your network pane and copy over the jsbreakingchangeversion
+# since we're copy pasting the whole request json in here anyway most likely that should be enough.
+jsbreakingchangeversion: 20221208

@@ -1,0 +1,66 @@
+{
+  "fromPort": "DPO",
+  "date": "2023-06-01",
+  "adultCount": 1,
+  "childCount": 0,
+  "pensionerCount": 0,
+  "infantCount": 0,
+  "petCount": 0,
+  "pushbikeWithRebateCount": 0,
+  "pushbikeNoRebateCount": 0,
+  "vehiclesQuery": [
+    {
+      "vehicle": {
+        "model": "Bronco",
+        "isAddingExtraHeight": false,
+        "isAddingBikeRack": false,
+        "isElectricOrHybrid": false,
+        "towedVehicle": {
+          "type": "None",
+          "isFifthWheeler": false,
+          "heightCategory": null,
+          "rego": null
+        },
+        "isOversized": false,
+        "userHasAnsweredAllVehicleHeightQuestions": true,
+        "needToAskIfCarryingAnythingOnRoof": true,
+        "needToAskIfCarryingOverheightCargoOnRoof": false,
+        "isCarryingSomethingOnRoof": false,
+        "heightCategory": "Unknown",
+        "hadHighForcedToLow": false,
+        "lengthWithTowedUnit": null,
+        "roofCargoHeightExamples": [
+          { "typicalHeightInCentimetres": 30, "text": "Surfboard" },
+          { "typicalHeightInCentimetres": 40, "text": "Normal roof pod" },
+          { "typicalHeightInCentimetres": 60, "text": "Extra large pod" },
+          { "typicalHeightInCentimetres": 100, "text": "Bicycle" },
+          { "typicalHeightInCentimetres": 120, "text": "Boat / Dinghy" }
+        ],
+        "heightInMetres": 1.86,
+        "make": "Ford",
+        "bodyShape": null,
+        "year": null,
+        "campervanSelection": null,
+        "lengthCategory": null,
+        "lengthInMetres": 4.51,
+        "rego": null,
+        "makeDisplay": "Ford",
+        "modelDisplay": "Bronco"
+      },
+      "motorbike": { "type": null },
+      "motorhome": {
+        "towedVehicle": { "type": null, "isFifthWheeler": false },
+        "isMotorisedUnitGreaterThanCampervanThreshold": null
+      },
+      "nonBookableVehicle": { "name": "" },
+      "skipRego": null,
+      "type": "Vehicle"
+    }
+  ],
+  "dateViewMode": "Month",
+  "bookingId": "c9b3af73-1101-4f1d-b903-773755b26403",
+  "isReturnQuery": true,
+  "isReturnSailing": false,
+  "nodeId": 1137,
+  "staffTravelGuid": null
+}

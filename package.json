@@ -1,0 +1,15 @@
+{
+  "name": "ferry-checker",
+  "version": "1.0.0",
+  "description": "Checks for available ferries to Tasmania",
+  "main": "index.mjs",
+  "author": "Marco",
+  "license": "MIT",
+  "bin": "",
+  "dependencies": {
+    "cosmiconfig": "^8.1.0",
+    "node-fetch": "^3.3.0",
+    "prettier": "^2.8.4",
+    "querystring": "^0.2.1"
+  }
+}
